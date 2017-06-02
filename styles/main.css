@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  margin: 0;
+}
+.pic{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: space-around;
+}
+p{
+  text-align: left;
+  margin-left: 30px;
+}
+button{
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  width: 50%;
+}
+.profile_picture{
+  text-align: left;
+}
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+  padding: 50px;
+}
+.info label{
+  flex-wrap: wrap;
+}
+.info{
+  display: flex;
+  display: inline-block;
+  width: 50%;
+}
+.info2{
+  float: right;
+  width: 50%;
+}
+.info input{
+  width: 90%;
+}
+.info2 input{
+width: 90%;
+}
+.type{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+h1{
+  text-align: center;
+}
+section {
+  height: 400px;
+  width: 760px;
+  background-color: #ffffff;
+  padding: 20px;
+
+}
